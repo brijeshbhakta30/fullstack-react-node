@@ -11,16 +11,15 @@ A Boilerplate for building fullstack applications with React, React Native and N
     ### iOS
   
     1. Run `cd ios` from root folder if this project      
-    1. Run `pod install`
-    2. Start XCode and open generated `xcworkspace` file
+    2. Run `pod install`
     
     ### Android
     
     no steps required
 
 
-4.  Run `react-native run-android` to run the project on Android
-5. Run your project from XCode (`Cmd+R`) for iOS, or use `react-native run-ios` command.
+4. Run `react-native run-android` to run the project on Android
+5. Run `react-native run-ios` to run the project in iOS or open XCode and open the ***xcworkspace*** file and from XCode run (`Cmd+R`).
 
 ## Useful links
 - [Commit message validation](https://www.conventionalcommits.org/en/v1.0.0/)
