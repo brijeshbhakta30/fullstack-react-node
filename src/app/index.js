@@ -1,5 +1,6 @@
 import React from 'react';
 import { SafeAreaView, ScrollView, View, Text, StatusBar } from 'react-native';
+import Button from 'components/Button';
 
 import {
   Header,
@@ -22,6 +23,7 @@ const App = () => (
         )}
         <View style={styles.body}>
           <View style={styles.sectionContainer}>
+            <Button label="Click Me" onPress={() => {}} />
             <Text style={styles.sectionTitle}>Step One</Text>
             <Text style={styles.sectionDescription}>
               Edit <Text style={styles.highlight}>app/index.js</Text> to change this screen and then

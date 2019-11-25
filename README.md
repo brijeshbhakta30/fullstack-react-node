@@ -21,5 +21,9 @@ A Boilerplate for building fullstack applications with React, React Native and N
 4. Run `react-native run-android` to run the project on Android or use ***android*** script with command `yarn android`.
 5. Run `react-native run-ios` to run the project in iOS or use ***ios*** script with command `yarn ios`. For running the app from XCode, open XCode app and open the ***xcworkspace*** file and run (`Cmd+R`).
 
+## Configuration
+
+- When adding new folders in `src` remember to add the folder name in `internalModules` variable in `metro.config.js` file and restart the project.
+
 ## Useful links
 - [Commit message validation](https://www.conventionalcommits.org/en/v1.0.0/)

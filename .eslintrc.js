@@ -16,6 +16,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     ],
+    'react/button-has-type': 'off',
     'prettier/prettier': [
       'error',
       {

@@ -8,11 +8,11 @@
     "android": "react-native run-android",
     "build": "craco build",
     "ios": "react-native run-ios",
+    "lint": "eslint .",
     "start:native": "react-native start",
-    "start:web": "craco start",
     "test": "yarn test:native",
     "test:native": "jest",
-    "lint": "eslint ."
+    "web": "craco start"
   },
   "license": "MIT",
   "repository": {
@@ -31,7 +31,7 @@
     "@babel/runtime": "7.7.2",
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
-    "@craco/craco": "*",
+    "@craco/craco": "5.6.2",
     "@react-native-community/eslint-config": "0.0.5",
     "babel-jest": "24.9.0",
     "eslint": "6.1.0",
@@ -75,7 +75,11 @@
     ]
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
   },
   "lint-staged": {
     "*.js": [
