@@ -1,0 +1,6 @@
+{
+  "eslint.enable": true,
+  "workbench.colorCustomizations": {
+    "tab.unfocusedActiveBorder": "#fff0"
+  }
+}

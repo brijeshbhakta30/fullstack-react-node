@@ -26,4 +26,17 @@ module.exports = {
     ],
   },
   plugins: ['prettier'],
+  env: {
+    browser: true,
+    node: true,
+    jest: true,
+    es6: true
+  },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']]
+      }
+    }
+  },
 };
