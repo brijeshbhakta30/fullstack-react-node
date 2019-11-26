@@ -9,6 +9,7 @@
     "build": "craco build",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "server": "node server",
     "start:native": "react-native start",
     "test": "yarn test:native",
     "test:native": "jest",
